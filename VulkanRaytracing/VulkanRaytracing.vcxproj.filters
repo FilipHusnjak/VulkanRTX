@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Renderer\VulkanRenderer.cpp" />
+    <ClCompile Include="src\Window\WindowsWindow.cpp" />
+    <ClCompile Include="src\Renderer\VulkanShader.cpp" />
+    <ClCompile Include="src\Renderer\PerspectiveCamera.cpp" />
+    <ClCompile Include="src\Renderer\PerspectiveCameraController.cpp" />
+    <ClCompile Include="src\Core\Layer.cpp" />
+    <ClCompile Include="src\Sandbox3D.cpp" />
+    <ClCompile Include="src\Application.cpp" />
+    <ClCompile Include="src\Core\LayerStack.cpp" />
+    <ClCompile Include="src\Core\Input.cpp" />
+    <ClCompile Include="src\Renderer\ObjModel.cpp" />
+    <ClCompile Include="src\Core\ImGuiLayer.cpp" />
+    <ClCompile Include="vendor\imgui\imgui.cpp" />
+    <ClCompile Include="vendor\imgui\imgui_demo.cpp" />
+    <ClCompile Include="vendor\imgui\imgui_draw.cpp" />
+    <ClCompile Include="vendor\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="vendor\imgui\examples\imgui_impl_vulkan.cpp" />
+    <ClCompile Include="vendor\imgui\examples\imgui_impl_glfw.cpp" />
+    <ClCompile Include="src\vkpch.cpp" />
+    <ClCompile Include="src\Tools\VulkanTools.cpp" />
+    <ClCompile Include="src\Tools\FileTools.cpp" />
+    <ClCompile Include="src\Core\Allocator.cpp" />
+    <ClCompile Include="src\Renderer\GraphicsPipeline.cpp" />
+    <ClCompile Include="src\Renderer\RenderPass.cpp" />
+    <ClCompile Include="src\Renderer\DescriptorPool.cpp" />
+    <ClCompile Include="src\Renderer\DescriptorSetType.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Renderer\VulkanRenderer.h" />
+    <ClInclude Include="src\Window\WindowsWindow.h" />
+    <ClInclude Include="src\Renderer\VulkanShader.h" />
+    <ClInclude Include="src\Renderer\PerspectiveCamera.h" />
+    <ClInclude Include="src\Sandbox3D.h" />
+    <ClInclude Include="src\Renderer\PerspectiveCameraController.h" />
+    <ClInclude Include="src\Core\Layer.h" />
+    <ClInclude Include="src\Application.h" />
+    <ClInclude Include="src\Core\LayerStack.h" />
+    <ClInclude Include="src\Event\Event.h" />
+    <ClInclude Include="src\Event\ApplicationEvent.h" />
+    <ClInclude Include="src\Event\KeyEvent.h" />
+    <ClInclude Include="src\Core\Input.h" />
+    <ClInclude Include="vendor\loader\tiny_obj_loader.h" />
+    <ClInclude Include="src\Renderer\ObjModel.h" />
+    <ClInclude Include="src\Core\ImGuiLayer.h" />
+    <ClInclude Include="src\vkpch.h" />
+    <ClInclude Include="src\Core\Core.h" />
+    <ClInclude Include="src\Tools\VulkanTools.h" />
+    <ClInclude Include="src\Tools\FileTools.h" />
+    <ClInclude Include="src\Core\Allocator.h" />
+    <ClInclude Include="vendor\loader\stb_image.h" />
+    <ClInclude Include="src\Renderer\GraphicsPipeline.h" />
+    <ClInclude Include="src\Renderer\RenderPass.h" />
+    <ClInclude Include="src\Renderer\DescriptorPool.h" />
+    <ClInclude Include="src\Renderer\DescriptorSetType.h" />
+  </ItemGroup>
+</Project>
